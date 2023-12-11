@@ -1,8 +1,53 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .container {
     display: flex;
     align-items: center;
+    width: 100vW;
+   height: 100vh;
+   margin-top:70px ;
+   
+   
   }
   
   img {
-   
-  }
+    margin:10%;
+    width: 25%;
+    height: 50%;
+
+}
+
+.descricao{
+    display: column;
+    align-items: center;
+    width: 45%;
+}
+
+footer {
+    background-color: #515050d3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #af1e1e4f;
+    padding: 1em;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+ 
+}
+
+
